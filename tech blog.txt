@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Trends Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .blog-post {
+            background: white;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .blog-post img {
+            width: 100%;
+            height: auto;
+        }
+        .blog-post-content {
+            padding: 15px;
+        }
+        .blog-post-content h2 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tech Trends Blog</h1>
+        <p>Your daily dose of technology updates and insights!</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="blog-post">
+            <img src="https://via.placeholder.com/800x400" alt="Tech News">
+            <div class="blog-post-content">
+                <h2>The Rise of AI: How It's Changing the World</h2>
+                <p>Artificial Intelligence (AI) is rapidly evolving and transforming industries across the globe. From self-driving cars to personalized medicine, explore how AI is shaping the future.</p>
+                <a href="#">Read more...</a>
+            </div>
+        </div>
+        <div class="blog-post">
+            <img src="https://via.placeholder.com/800x400" alt="Tech Gadgets">
+            <div class="blog-post-content">
+                <h2>Top 10 Gadgets to Look Out for in 2024</h2>
+                <p>Get ready for the coolest tech gadgets hitting the market in 2024! Check out our curated list of must-have devices for every tech enthusiast.</p>
+                <a href="#">Read more...</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Tech Trends Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
